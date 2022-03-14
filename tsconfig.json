@@ -11,6 +11,14 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom"]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/store/Counter.js"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/store/Counter.js",
+    "types/**/*.d.ts",
+    "mock/**/*.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -5,6 +5,7 @@
   <RouterJump></RouterJump>
   <CounterStore></CounterStore>
   <MockTest></MockTest>
+  <I18nTest></I18nTest>
 </template>
 
 <script setup lang="ts">
@@ -14,6 +15,7 @@ import Clock from '@/components/demo/Clock.vue'
 import RouterJump from '@/components/demo/RouterJump.vue'
 import CounterStore from '@/components/demo/CounterStore.vue'
 import MockTest from '@/components/demo/MockTest.vue'
+import I18nTest from '@/components/demo/I18nTest.vue'
 </script>
 
 <style>

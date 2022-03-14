@@ -17,11 +17,18 @@ export default defineConfig({
   ],
   resolve: {
     // alias: {
-      // find: '/\/@\//',
-      // replacement: pathResolve('src') + '/'
+    // find: '/\/@\//',
+    // replacement: pathResolve('src') + '/'
     // }
-    alias: {
-      '@': resolve(__dirname, 'src')
-    }
+    alias: [
+      {
+        find: '@',
+        replacement: resolve(__dirname, 'src')
+      },
+      {
+        find: '#',
+        replacement: resolve(__dirname, 'types')
+      }
+    ]
   }
 })
