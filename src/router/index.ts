@@ -7,9 +7,9 @@ import Clock from '../components/demo/Clock.vue'
 // 2. 定义一些路由
 const routes = [
     {
-        name: 'HelloWorld',
+        name: 'Demo',
         path: '/',
-        component: ()=> import('../components/HelloWorld.vue')
+        component: ()=> import('../components/demo/index.vue')
     },
     {
         name: 'Counter',
