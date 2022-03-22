@@ -6,16 +6,18 @@
   <CounterStore></CounterStore>
   <MockTest></MockTest>
   <I18nTest></I18nTest>
+  <GridLayoutTest></GridLayoutTest>
 </template>
 
 <script setup lang="ts">
 import HelloWorld from '@/components/HelloWorld.vue'
-import Counter from '@/components/demo/Counter.vue'
-import Clock from '@/components/demo/Clock.vue'
-import RouterJump from '@/components/demo/RouterJump.vue'
-import CounterStore from '@/components/demo/CounterStore.vue'
-import MockTest from '@/components/demo/MockTest.vue'
-import I18nTest from '@/components/demo/I18nTest.vue'
+import Counter from '@/views/demo/Counter.vue'
+import Clock from '@/views/demo/Clock.vue'
+import RouterJump from '@/views/demo/RouterJump.vue'
+import CounterStore from '@/views/demo/CounterStore.vue'
+import MockTest from '@/views/demo/MockTest.vue'
+import I18nTest from '@/views/demo/I18nTest.vue'
+import GridLayoutTest from '@/views/demo/GridLayoutTest.vue'
 </script>
 
 <style>

@@ -2,24 +2,24 @@ import {createRouter, createWebHashHistory} from 'vue-router'
 
 // 1. 定义路由组件
 const Home = {template: '<div>Home</div>'}
-import Clock from '../components/demo/Clock.vue'
+import Clock from '../views/demo/Clock.vue'
 
 // 2. 定义一些路由
 const routes = [
     {
         name: 'Demo',
         path: '/',
-        component: ()=> import('../components/demo/index.vue')
+        component: ()=> import('../views/demo/index.vue')
     },
     {
         name: 'Counter',
         path: '/demo/counter',
-        component: ()=> import('../components/demo/Counter.vue')
+        component: ()=> import('../views/demo/Counter.vue')
     },
     {
         name: 'Clock',
         path: '/demo/clock',
-        component: ()=> import('../components/demo/Clock.vue')
+        component: ()=> import('../views/demo/Clock.vue')
     }
 ]
 

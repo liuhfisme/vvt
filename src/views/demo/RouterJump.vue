@@ -2,6 +2,7 @@
   <router-link to="/demo/counter">Counter</router-link>
   <router-link to="/demo/clock">Clock</router-link>
   <router-view></router-view>
+  <hr/>
 </template>
 
 <script setup lang="ts">
