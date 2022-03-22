@@ -20,6 +20,11 @@ const routes = [
         name: 'Clock',
         path: '/demo/clock',
         component: ()=> import('../views/demo/Clock.vue')
+    },
+    {
+        name: 'GridTest',
+        path: '/demo/gridtest',
+        component: ()=> import('../views/demo/GridTest.vue')
     }
 ]
 

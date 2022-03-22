@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "eslint": "^8.10.0",
+    "interactjs": "^1.10.11",
     "lodash-es": "^4.17.21",
     "mockjs": "^1.1.0",
     "vue": "^3.2.25",

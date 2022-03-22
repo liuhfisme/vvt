@@ -6,7 +6,8 @@
   <CounterStore></CounterStore>
   <MockTest></MockTest>
   <I18nTest></I18nTest>
-  <GridLayoutTest></GridLayoutTest>
+  <router-link to="/demo/gridtest">布局控件</router-link>
+  <hr/>
 </template>
 
 <script setup lang="ts">
@@ -17,7 +18,6 @@ import RouterJump from '@/views/demo/RouterJump.vue'
 import CounterStore from '@/views/demo/CounterStore.vue'
 import MockTest from '@/views/demo/MockTest.vue'
 import I18nTest from '@/views/demo/I18nTest.vue'
-import GridLayoutTest from '@/views/demo/GridLayoutTest.vue'
 </script>
 
 <style>
