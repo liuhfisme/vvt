@@ -1,6 +1,6 @@
 <template>
-    <div class="row">
-        <div class="col-3">
+    <a-row>
+        <a-col :span="4">
             <h3>Draggable 1</h3>
             <draggable
                 class="dragArea list-group"
@@ -13,9 +13,9 @@
                     <div class="list-group-item">{{ element.name }}</div>
                 </template>
             </draggable>
-        </div>
+        </a-col>
 
-        <div class="col-3">
+        <a-col :span="20">
             <h3>Draggable 2</h3>
             <draggable
                 class="dragArea list-group"
@@ -28,12 +28,12 @@
                     <div class="list-group-item">{{ element.name }}</div>
                 </template>
             </draggable>
-        </div>
+        </a-col>
 
         <rawDisplayer class="col-3" :value="list1" title="List 1" />
 
         <rawDisplayer class="col-3" :value="list2" title="List 2" />
-    </div>
+    </a-row>
 </template>
 
 <script lang="ts">
